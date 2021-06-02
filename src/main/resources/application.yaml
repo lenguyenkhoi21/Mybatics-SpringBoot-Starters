@@ -1,7 +1,14 @@
 spring:
+  data:
+    mongodb:
+      username: spring
+      password: spring
+      host: localhost
+      port: 27017
+      database: SpringMGDB
   datasource:
     username: root
-    password: root
+    password: LeNguyenKhoi21
     url: jdbc:mysql://localhost:3306/mybatics
 
 mybatis:
